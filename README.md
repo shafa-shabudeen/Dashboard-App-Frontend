@@ -1,80 +1,50 @@
-# Free Tailwind dashboard template
+# Dashboard Frontend
 
-![Mosaic TailwindCSS template preview](https://user-images.githubusercontent.com/2683512/115404502-ad322d80-a1ed-11eb-91c0-1aa79b0949f0.png)
+Welcome to the Dashboard Frontend, a powerful user interface for your dashboard or web application. This frontend is built using React with Vite as the build tool, providing a modern and efficient development environment.
 
-**Mosaic Lite** is a responsive dashboard template built on top of TailwindCSS and fully coded in React. It comes with several pre-coded charts (built with Chart.js 3) and widgets, and it's a great starting for anyone who wants to create a user interface for SaaS products, administrator dashboards, modern web apps, and more.
+![App Preview](dashboard-app-preview.png)
 
-Use it for whatever you want, and be sure to reach us out on [Twitter](https://twitter.com/Cruip_com) if you build anything cool/useful with it.
+## Features
 
-Created and maintained with ❤️ by [Cruip.com](https://cruip.com/).
+- Interactive dashboard user interface.
+- Real-time data visualization and widgets.
+- Responsive design for various devices.
+- Customizable components and layouts.
+- Seamless integration with your backend services.
 
-## Live demo
+## Technologies Used
 
-Check the live demo here 👉️ [https://mosaic.cruip.com/](https://mosaic.cruip.com/)
+- React: A JavaScript library for building user interfaces.
+- Vite: A fast build tool and development server.
+- HTML and CSS: Markup and styling languages for creating frontend components.
+- Highcharts: A JavaScript charting library for data visualization.
 
-## Mosaic Pro
+## Getting Started
 
-[![Mosaic Pro](https://user-images.githubusercontent.com/2683512/151177026-3d063355-976d-4fdb-a5ed-9c1501c58af2.png)](https://cruip.com/mosaic/)
+To run the Dashboard Frontend locally, follow these steps:
 
-## Design files
+1. Clone this repository to your local machine:
 
-If you need the design files, you can download them from Figma's Community 👉 https://bit.ly/3sigqHe
+   ```bash
+   git clone https://github.com/your-username/dashboard-frontend.git
+ 2. Navigate to the project directory:
+    ```
+    cd dashboard-frontend
+3. Install project dependencies:
+    ```
+   npm install
+4.Start the development server:
+  ```
+  npm run dev
+  ```
+5. Open the application in your web browser at http://localhost:5173
 
-## Table of contents
+ ## Usage
+   Navigate through the dashboard using the provided navigation elements. Interact with various widgets and data visualization components to explore your data.
+   
+## Customization
+   You can customize the Dashboard Frontend by modifying React components, styles, and layouts in the source code to fit your specific dashboard project. Add new features, widgets, or integrations as needed.
 
-* [Usage](#usage)
-  * [Project setup](#project-setup)
-  * [Compiles and hot-reloads for development](#compiles-and-hot-reloads-for-development)
-  * [Compiles and minifies for production](#compiles-and-minifies-for-production)
-  * [Customize configuration](#customize-configuration)
-* [Support notes](#support-notes)            
-* [Credits](#credits)
-* [Terms and License](#terms-and-license)
-* [About Us](#about-us)
-* [Stay in the loop](#stay-in-the-loop)
+## Integration
+Integrate the Dashboard Frontend with your backend services by making API requests to fetch data. Customize the integration to work seamlessly with your data sources.
 
-## Usage
-
-This project was bootstrapped with [Vite](https://vitejs.dev/).
-
-### Project setup
-```
-npm install
-```
-
-#### Compiles and hot-reloads for development
-```
-npm run dev
-```
-
-#### Compiles and minifies for production
-```
-npm run build
-```
-
-#### Customize configuration
-See [Configuration Reference](https://vitejs.dev/guide/).
-
-### Support notes
-We are shipping our templates with a very basic React configuration to let you quickly get into the development process, but we don't discourage you from using any other configuration or framework built on the top of React. So, please note that any request dealing with React (e.g. extra features, customisations, et cetera) is to be considered out of the support scope.
-
-For more information about what support covers, please see our (FAQs)[https://cruip.com/faq/].
-
-## Credits
-
-- [Nucleo](https://nucleoapp.com/)
-
-## Terms and License
-
-- Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
-- Copyright 2020 [Cruip](https://cruip.com/).
-- Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
-- Attribution is not required, although it is really appreciated.
-
-## About Us
-
-We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
-
-## Stay in the loop
-
-If you would like to know when we release new resources, you can follow us on [Twitter](https://twitter.com/Cruip_com), or you can subscribe to our monthly [newsletter](https://cruip.com/#subscribe).
